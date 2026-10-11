@@ -2,7 +2,7 @@
 
 ## 1. Yêu cầu môi trường
 - Python 3.x
-- Cài đặt thư viện: `pip install `
+- Cài đặt thư viện: `pip install pika`
 
 ## 2. Cấu hình MQTT Broker
 Các chương trình sử dụng **RabbitMQ**, một message broker nội bộ giao tiếp bằng giao thức **AMQP**. Thư viện Python `pika` mở kết nối tới `localhost` với cấu hình mặc định của RabbitMQ (cổng AMQP `5672`, tài khoản mặc định `guest/guest`). Các script không truyền username/password riêng, nên RabbitMQ cần cho phép kết nối mặc định trên máy đang chạy chương trình.
